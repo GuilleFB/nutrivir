@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=virginia_local_db
+POSTGRES_USER=virginia_local_user_db
+POSTGRES_PASSWORD=virginia_local_password_db
