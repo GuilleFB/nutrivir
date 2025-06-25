@@ -12,7 +12,7 @@
           content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" content="Web personal de Virginia" />
     <meta name="author" content="Guillermo Follana Berná" />
-    <link rel="icon" href="{% static 'images/favicons/diamante.png' %}" />
+    <link rel="icon" href="{% static 'images/favicons/leaf-solid.svg' %}" />
     <link rel="stylesheet" href="{% static 'css/main.css' %}" />
     <noscript>
       <link rel="stylesheet" href="{% static 'css/noscript.css' %}" />
@@ -35,7 +35,7 @@
       <!-- Header -->
       <header id="header">
         <div class="logo">
-          <span class="icon fa-gem"></span>
+          <span class="icon solid fa-leaf"></span>
         </div>
         <div class="content">
           <div class="inner">
@@ -52,6 +52,9 @@
               <a href="#work">Work</a>
             </li>
             <li>
+              <a href="#tarifas">Tarifas</a>
+            </li>
+            <li>
               <a href="#contact">Contact</a>
             </li>
           </ul>
@@ -63,6 +66,8 @@
         {% include 'pages/articles/intro.html' %}
         <!-- Work -->
         {% include 'pages/articles/work.html' %}
+        <!-- Tarifa -->
+        {% include 'pages/articles/tarifas.html' %}
         <!-- Contact -->
         {% include 'pages/articles/contact.html' %}
       </div>
