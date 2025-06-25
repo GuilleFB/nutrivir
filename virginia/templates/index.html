@@ -4,7 +4,9 @@
 {% get_current_language as LANGUAGE_CODE %}
 <html lang="{{ LANGUAGE_CODE }}">
   <head>
-    <title>NutriVir</title>
+    {% block title %}
+      <title>Nutrivir</title>
+    {% endblock title %}
     <meta charset="utf-8" />
     <meta name="viewport"
           content="width=device-width, initial-scale=1, user-scalable=no" />
