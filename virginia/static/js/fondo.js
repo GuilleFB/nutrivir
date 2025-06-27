@@ -1,11 +1,11 @@
 const images = [
-  "../../static/images/nina.jpg",
-    "../../static/images/fondo.jpg",
-    "../../static/images/fondo_comida.jpg",
-    "../../static/images/ejemplo_retrato.jpg",
-    "../../static/images/fondo_rustico.jpg",
-    "../../static/images/pareja.jpg",
-    "../../static/images/comida.jpg",
+  "../../static/images/nina.webp",
+    "../../static/images/fondo.webp",
+    "../../static/images/fondo_comida.webp",
+    "../../static/images/ejemplo_retrato.webp",
+    "../../static/images/fondo_rustico.webp",
+    "../../static/images/pareja.webp",
+    "../../static/images/comida.webp",
 ];
 
 let currentIndex = 0;
